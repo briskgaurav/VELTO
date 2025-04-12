@@ -21,7 +21,7 @@ function VideoBackground() {
         </h1>
         <div className="items-center flex gap-10 text-white font-[nextFBold] tracking-wider uppercase">
           {["Portfolio", "services", "About US"].map((item, index) => (
-            <h4 className="text-xs">{item}</h4>
+            <h4 className="text-md">{item}</h4>
           ))}
         </div>
       </nav>

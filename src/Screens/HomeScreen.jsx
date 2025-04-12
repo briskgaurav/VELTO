@@ -6,13 +6,13 @@ function HomeScreen() {
   return (
     <>
       <div className="w-1/2 min-h-[88vh]">
-        <div className="absolute w-[40%] bottom-42">
-          <p className="uppercase text-3xl leading-8 font-[nextFBold] text-white">
+        <div className="absolute w-[40%] bottom-28">
+          <p className="uppercase text-[30px] leading-8 font-[nextFBold] text-white">
             We bring ideas to life through thoughtful design and meaningful
             experiences.
           </p>
-          <div className="flex items-center justify-center gap-2 mt-4 text-white border rounded-sm w-[40%] py-2 font-[NextFMedium]">
-            <p>Get Started</p>
+          <div className="flex items-center justify-center gap-2 mt-8  text-white border rounded-full w-[50%] py-3 font-[nextFMedium]">
+            <p className="text-[22px]">Get Started</p>
             <GoArrowRight size={30} />
           </div>
         </div>
