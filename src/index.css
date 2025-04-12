@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@font-face {
+   font-family: 'NextF';
+   src: url('nextf.ttf') format('truetype');
+
+ }
+@font-face {
+   font-family: 'NextFBlack';
+   src: url('nextFBlack.ttf') format('truetype');
+
+ }
+@font-face {
+   font-family: 'NextFBold';
+   src: url('nextFBoldExtra.ttf') format('truetype');
+
+ }
+@font-face {
+   font-family: 'NextFMedium';
+   src: url('nextfMedium.ttf') format('truetype');
+
+ }
+
+
+ html,body, #root {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+ }
