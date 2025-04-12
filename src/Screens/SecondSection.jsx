@@ -44,7 +44,7 @@ function SecondSection() {
         <div>
           <h1
             ref={wordRef}
-            className="text-[6vw] text-white stroke-text font-[nextFBold] leading-none"
+            className="text-[6vw] text-white leadiing-none stroke-text font-[nextFBold] leading-none"
           >
             {words[wordIndex]}
           </h1>
@@ -52,7 +52,7 @@ function SecondSection() {
       </div>
 
       <div className="flex mt-10 border-b items-center w-[90%] justify-between py-4 px-16 text-white font-[nextFBold]">
-        {["Design Agency", "Scroll to explore", "Work with us"].map((item, i) => (
+        {["Design Agency", "↓ Scroll to explore", "Work with us"].map((item, i) => (
           <h6 key={i}>{item}</h6>
         ))}
       </div>
