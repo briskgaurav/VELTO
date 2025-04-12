@@ -15,7 +15,7 @@ function VideoBackground() {
         Your browser does not support the video tag.
       </video>
       {/* NavBar */}
-      <nav className="fixed px-16  py-8 top-0 flex items-center justify-between left-0 w-screen ">
+      <nav className="fixed px-16  py-4 top-0 flex items-center justify-between left-0 w-screen ">
         <h1 className="uppercase font-[nextfBold] text-white text-4xl ">
           Velto
         </h1>
